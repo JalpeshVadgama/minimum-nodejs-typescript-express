@@ -1,4 +1,5 @@
-import { Request, Response, NextFunction } from 'express';
+import { Request, Response, NextFunction } from "express";
+
 
 export default class  HomeController {
     public static  getDefault(req:Request, res: Response, next: NextFunction){
