@@ -6,7 +6,7 @@ export default class ExpressRouter{
     public router : Router;
     private app: Express;
 
-    constructor(app: any){
+    constructor(app: Express){
         this.router = Router();
         this.app = app;
         this.init();
