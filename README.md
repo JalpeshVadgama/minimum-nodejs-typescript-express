@@ -1,4 +1,4 @@
-# A minimal web application structure with of node.js, typescript, express
+# A minimal web application structure with techonologies like node.js, typescript, express
 
 This project is created to help people created to start creating application with the TypeScript, Node.js and Express.
 
