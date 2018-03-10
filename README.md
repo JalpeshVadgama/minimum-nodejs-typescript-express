@@ -13,9 +13,13 @@ To run this project first you need to run following command
 
 ## Directory strcture of project:
 
--app.ts - Typescript files for creating express application class and where we have initilized the applcation.
--routes.ts - Typescript files for creating all the routes under Init() Method.
--package.json - Contains all the packages and dev dependencies required for this application. You can add more as your requirement.
+- [] app.ts - Typescript files for creating express application class and where we have initilized the applcation.
+- [] routes.ts - Typescript files for creating all the routes under Init() Method.
+- [] configuration.ts - Contains all the configruation for application. You can have port changes there.
+- [] package.json - Contains all the packages and dev dependencies required for this application. You can add more as your requirement.
+- [] tsconfig.json - Where all the typescript configuration is there and we converting typescript into ES5.
+- [] Controller Folder - Contains all the classes for controller of express application.
+
 
 ## License
 
