@@ -4,7 +4,8 @@
   "description": "A minimum typescript,nodejs and express application",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "tsc && node dist/app.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "dependencies": {
     "express": "4.16.2"
   },
+  
   "author": "Jalpesh Vadgama",
   "license": "ISC",
   "bugs": {
