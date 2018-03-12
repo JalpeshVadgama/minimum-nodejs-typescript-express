@@ -1,6 +1,6 @@
 # A minimal web application structure with technologies like node.js, typescript, express
 
-This project is created to help people created to start creating application with the TypeScript, Node.js and Express.
+This project is created to help people who wants to start creating application with the TypeScript, Node.js and Express.
 
 ## How to run this project:
 To run this project first you need to run following command
