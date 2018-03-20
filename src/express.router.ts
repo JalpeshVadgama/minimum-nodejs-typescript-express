@@ -12,12 +12,12 @@ export default class ExpressRouter{
         this.init();
     }
 
-    init(): any{
+    init(): void{
         //Home controller routes 
         this.router.get("/",HomeController.getDefault);
     }
 
-    setRoutes():any{
+    setRoutes():void{
         this.app.use("/", this.router);
     }
 }
