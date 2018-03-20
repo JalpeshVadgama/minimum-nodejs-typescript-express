@@ -17,11 +17,13 @@
     "express"
   ],
   "devDependencies": {
+    "@types/dotenv": "^4.0.2",
     "@types/express": "*",
     "@types/node": "*",
     "typescript": "*"
   },
   "dependencies": {
+    "dotenv": "^5.0.1",
     "express": "4.16.2"
   },
   "author": "Jalpesh Vadgama",

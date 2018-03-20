@@ -1,5 +1,5 @@
-import { Router, Request, Response, NextFunction,Express} from "express";
-import HomeController from "./controller/home.controller";
+import { Router, Request, Response, NextFunction,Express} from 'express';
+import HomeController from './controller/home.controller';
 
 export default class ExpressRouter{
     
