@@ -1,13 +1,13 @@
-import configuration from './configuration';
-import express from 'express';
-import ExpressRotuer from './express.router';
-import * as dotenv from 'dotenv';
+import configuration from "./configuration";
+import express from "express";
+import ExpressRotuer from "./express.router";
+import * as dotenv from "dotenv";
+dotenv.config();
 
 let app = express();
-let expresRoutes = new ExpressRotuer(app);
-expresRoutes.setRoutes();
+let expressRoutes = new ExpressRotuer(app);
+expressRoutes.setRoutes();
 
-
-app.listen(configuration.port, () => {
-	console.log(`Express server app listening on port ${configuration.port}!`)
+app.listen(process.env.PORT, () => {
+  console.log(`Express server app listening on port ${configuration.port}!`);
 });
