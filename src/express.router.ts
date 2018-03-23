@@ -8,15 +8,10 @@ export default class ExpressRouter {
   constructor(app: Express) {
     this.router = Router();
     this.app = app;
-    this.init();
   }
 
   init(): void {
-    //Home controller routes
     this.router.get("/", HomeController.getDefault);
-  }
-
-  setRoutes(): void {
     this.app.use("/", this.router);
   }
 }
