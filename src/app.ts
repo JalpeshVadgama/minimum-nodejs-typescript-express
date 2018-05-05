@@ -1,10 +1,11 @@
-import express from "express";
-import ExpressRotuer from "./express.router";
-import * as dotenv from "dotenv";
+import * as dotenv from 'dotenv';
+import express from 'express';
+import ExpressRotuer from './express.router';
+
 dotenv.config();
 
-let app = express();
-let expressRoutes = new ExpressRotuer(app);
+const app = express();
+const expressRoutes = new ExpressRotuer(app);
 expressRoutes.init();
 
 app.listen(process.env.PORT, () => {
