@@ -18,7 +18,7 @@ To run this project first you need to run following command
 * package.json - Contains all the packages and dev dependencies required for this application. You can add more as your requirement..
 * tsconfig.json - Where all the typescript configuration is there and we converting typescript into ES5..
 * Controller Folder - Contains all the classes for the controller of the express application.
-* tsconfig.josn - Contains all the rules for TypeScript linting.
+* tsconfig.json - Contains all the rules for TypeScript linting.
 
 ## License
 
